@@ -1,8 +1,17 @@
 @import "tailwindcss";
 
-/* Base typography */
 html {
   @apply bg-white text-black font-sans antialiased;
+  overscroll-behavior: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body,
+#root {
+  overscroll-behavior: none;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /* Headings */
