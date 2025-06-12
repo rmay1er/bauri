@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+/* Base typography */
+html {
+  @apply bg-white text-black font-sans antialiased;
+}
+
+/* Headings */
+h1 {
+  @apply text-4xl font-bold mb-6;
+}
+
+h2 {
+  @apply text-3xl font-semibold mb-5;
+}
+
+h3 {
+  @apply text-2xl font-medium mb-4;
+}
+
+h4 {
+  @apply text-xl font-medium mb-3;
+}
+
+h5 {
+  @apply text-lg font-medium mb-2;
+}
+
+h6 {
+  @apply text-base font-medium mb-1;
+}
+
+/* Text elements */
+p {
+  @apply text-base mb-4 leading-relaxed;
+}
+
+a {
+  @apply text-black underline hover:no-underline transition;
+}
+
+blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic my-4;
+}
+
+code {
+  @apply bg-gray-100 px-1 rounded font-mono text-sm;
+}
+
+/* Lists */
+ul,
+ol {
+  @apply mb-4 pl-5;
+}
+
+ul {
+  @apply list-disc;
+}
+
+ol {
+  @apply list-decimal;
+}
+
+li {
+  @apply mb-2;
+}
+
+/* Tables */
+table {
+  @apply w-full border-collapse my-4;
+}
+
+th,
+td {
+  @apply border border-gray-300 px-4 py-2;
+}
+
+th {
+  @apply bg-gray-100 font-semibold text-left;
+}
+
+/* Forms */
+input,
+textarea,
+select {
+  @apply border border-gray-300 rounded px-3 py-2 w-full mb-3;
+}
+
+button {
+  @apply bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition;
+}
+
+/* Horizontal rule */
+hr {
+  @apply border-t border-gray-300 my-6;
+}
